@@ -1,0 +1,300 @@
+@font-face {
+	font-family: gothamMedium;
+	src: url(/assets/gotham/GothamBold.ttf);
+}
+@font-face {
+	font-family: gothamLight;
+	src: url(/assets/gotham/GothamMedium.ttf);
+}
+@font-face {
+	font-family: gothamVeryLight;
+	src: url(/assets/gotham/GothamLight.ttf);
+}
+
+.logo-heading {
+	font-family: 'Rosarivo', serif;
+	font-size: 24px;
+	line-height: 0px;
+}
+.rosa {
+	font-family: 'Rosarivo', serif;
+}
+.logo-subheading {
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+.nav-item {
+	font-size: 18px;
+}
+.custom-header {
+	background: #FFFFFF;
+	transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+	/* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25); */
+}
+/* Hero Section */
+
+.hero {
+	min-height: 100vh;
+	background: url("/assets/hero_overlay_low.jpg");
+	/* background: url("./../assets/hero_overlay2.jpg"); */
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-attachment: fixed;
+	background-position-y: 100px;
+	/* background-position: top; */
+	background-repeat: no-repeat;
+	/* background-position-y: 100px; */
+	/* transition: background-position-y cubic-bezier(0.075, 0.82, 0.165, 1) 5s; */
+	transition: background-position-y cubic-bezier(0.075, 0.82, 0.165, 1) 5s;
+	/* background: rgba(255, 255, 255, 0.94); */
+}
+/* .hero:hover{
+    background-position-y: 0px;
+    transition: background-position-y cubic-bezier(0.075, 0.82, 0.165, 1) 5s;
+} */
+.hero-container {
+	/* background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09); */
+	padding: 10px;
+	border-radius: 6px;
+}
+.hero-content {
+	font-size: 40px;
+	/* max-width: 400px; */
+	color: #ffffff;
+	/* font-family: 'gothamLight'; */
+	font-family: 'Fjalla One', sans-serif;
+	/* line-height:30px; */
+	/* line-height: 85px; */
+	text-shadow: 1px 2px #5a5a5a;
+	/* letter-spacing: 3px; */
+}
+.hero-quot {
+	color: rgba(255, 255, 255, 0.589);
+	font-size: 127px;
+	font-family: 'Rosarivo';
+}
+.hero .reference {
+	font-size: 45px;
+	/* max-width: 400px; */
+	color: #ffffff;
+	font-size: 25px;
+	font-family: 'gothamVeryLight';
+	text-shadow: 1px 2px #5a5a5a;
+}
+.ctm-button {
+	background-color: #000000;
+	color: white;
+	font-family: 'Varta', sans-serif;
+	padding: 5px 0px;
+	display: flex;
+	line-height: 25px;
+	border: none;
+}
+/* JOIN  */
+
+.join {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	background-color: rgba(20, 20, 20, 0.541);
+	width: 100%;
+	display: inline-block;
+	color: white !important;
+	padding: 10px;
+	font-size: 30px;
+	font-family: 'gothamMedium';
+}
+.join .time {
+	font-size: 20px;
+	/* font-weight: 200; */
+	font-family: 'gothamLight';
+}
+.ctm-btn-light {
+	font-size: 20px;
+	padding: 10px 10px;
+	border: none;
+}
+.about_church {
+	font-family: 'Rosarivo';
+	font-size: 20px;
+	line-height: normal;
+	padding: 30px;
+	/* text-align: center; */
+	border: 1px solid white;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.836);
+	color: rgba(0, 0, 0, 0.788);
+	text-shadow: none;
+}
+.add_border {
+	border: 1px solid rgba(255, 255, 255, 0.384);
+}
+.know-more {
+	background: none;
+	border: none;
+	color: black;
+	font-family: "gothamLight";
+}
+.address {
+	font-family: "Rosarivo";
+}
+.special-btn {
+	background: black;
+	color: white !important;
+	border-bottom: 3px solid silver;
+}
+.bg {
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+	max-height: 600px;
+	/* width:102% */
+	/* width: 200px; */
+}
+.item {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: -300px;
+	background-color: rgba(0, 0, 0, 0.404);
+	z-index: 1;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: top cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+	cursor: pointer;
+}
+.item-text {
+	margin: auto auto;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	text-shadow: 1px 2px 2px black;
+}
+/* 
+.bg1{
+  background-image: url('./../assets/images/choir\ 2.png');
+}
+.item-bg{
+	background-color: rgb(30 30 30 / 45%);
+	min-height: 300px;
+	max-height: 600px;
+	position: absolute;
+	top: 1px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 80px;
+	text-shadow: 1px 2px 5px #525252;
+	font-family: 'Fjalla One';
+	text-transform: uppercase;
+	letter-spacing: 9px;
+	z-index: 1;
+   
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.bg-container{
+	position: relative;
+	min-height: 300px;
+	max-height: 600px;
+}
+.bg-container:hover .item{
+	top:0px;
+	transition: top cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.bg2{
+	background-image: url('./../assets/images/christmas.png');
+}
+.bg3{
+	background-image: url('./../assets/images/pastor.png');
+}
+.bg4{
+	background-image: url('./../assets/images/events.png');
+} */
+.custom-shadow {
+	box-shadow: 8px 5px 4px rgb(0 0 0 / 25%);
+	background: rgba(255, 255, 255, 0.918) !important;
+}
+.click-more {
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	color: grey;
+	font-size: 18px;
+}
+/* COPYRIGHT */
+
+
+/* Media Queries */
+.lato-heading {
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+}
+.yt-logo {
+	width: 40px;
+	height: 40px;
+}
+.logo {
+	width: 60px;
+}
+.llc-heading {
+	font-size: 70px;
+}
+@media screen and (max-width:800px) {
+	.llc-heading {
+		font-size: 45px;
+	}
+	.logo {
+		width: 20px !important;
+	}
+	.ctm-btn-light {
+		font-size: 13px;
+	}
+	.logo-heading {
+		font-size: 18px;
+	}
+	.logo-subheading {
+		font-size: 12px;
+	}
+	.yt-logo {
+		width: 20px;
+		height: 20px;
+	}
+	.hero-content {
+		font-size: 26px;
+		line-height: 1.5;
+		text-align: center;
+	}
+	.reference {
+		text-align: right !important;
+		font-size: 15px !important;
+	}
+	.join {
+		font-size: 14px;
+	}
+	.join .time {
+		font-size: 15px;
+	}
+}
+.b-verse {
+	flex: 1 1 0%;
+	text-align: center;
+	position: relative;
+	top: -90px;
+	color: #ffffff82;
+	font-family: 'Rosarivo', serif;
+
+}
+.b-verse-sub {
+	font-family: 'gothamLight', serif;
+	font-size: 13px;
+}
